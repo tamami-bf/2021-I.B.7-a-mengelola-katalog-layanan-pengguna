@@ -1,0 +1,51 @@
+== Portal Pajak Daerah
+
+=== Nama Layanan
+
+Portal Pajak Daerah Kabupaten Brebes
+
+=== Deskripsi layanan secara umum
+
+Layanan ini digunakan untuk memberikan informasi lengkap seluruh jenis pajak dan retribusi daerah, termasuk di dalamnya layanan-layanan bagi pengguna internal dan eksternal unit organisasi dalam melakukan akses data pajak daerah.
+
+=== Detail Syarat dan Ketentuan Layanan
+
+Syarat dan ketentuan penggunaan layanan ini, untuk beberapa jenis informasi dapat diakses langsung melalui halaman utama, sedangkan beberapa layanan memerlukan hak akses khusus bagi pengguna yang diberikan sesuai kebutuhan atau kewenangan dari pengguna aplikasi.
+
+=== Cakupan Pengguna
+
+Cakupan pengguna untuk layanan ini yaitu : 
+
+. umum, yaitu masyarakat umum yang memiliki hubungan dengan kewajiban perpajakan yang telah ditetapkan oleh Pemerintah Daerah.
+. eksternal, yaitu perseorangan atau badan unit organisasi lain di luar Badan Pendapatan Daerah Kabupaten Brebes yang memiliki kebutuhan akan data perpajakan daerah.
+. internal, yaitu pegawai yang melakukan pengelolaan pajak daerah di Badan Pendapatan Daerah Kabupaten Brebes.
+
+=== Pengelola Layanan
+
+Pengelola layanan ini adalah fungsional pranata komputer di lingkungan internal Badan Pendapatan Daerah Kabupaten Brebes
+
+=== Waktu Berjalannya Layanan
+
+Layanan ini tersedia selama 24 jam setiap hari dan 7 hari dalam seminggu
+
+=== Referensi ke _template_ SLA (_Service Level Agreement_)
+
+berisi tautan ke _template_ SLA
+
+=== _Notional Charging_
+
+berisi komponen biaya tetap dan komponen biaya variabel
+
+=== Proses Untuk Permintaan Layanan Teknologi Informasi
+
+=== Dampak operasional apabila terjadi gangguan
+
+=== Daftar Layanan Pendukung Layanan Utama 
+
+berisi layanan pendukung yang harus tersedia agar layanan utama dapat berjalan
+
+=== Versi dan tanggal revisi 
+
+berisi penjelasan versi perubahan layanan teknologi informasi beserta tanggal perubahannya
+
+=== Lembar Persetujuan
