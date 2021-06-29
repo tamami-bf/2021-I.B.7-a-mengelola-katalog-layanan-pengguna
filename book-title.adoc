@@ -1,17 +1,16 @@
 :doctype: book
 
-= Katalog Layanan Pengguna
+= Katalog Layanan Pengguna - Portal Pajak Daerah
 Priyanto Tamami <tamami.oka@gmail.com>
 Badan Pendapatan Daerah Kabupaten Brebes
-
-
-:author: tamami
+:reproducible:
+:author: Priyanto Tamami <tamami.oka@gmail.com>
 :source-highlighter: rouge
 :table-caption: Tabel 
 :sourcedir: src
 :includedir: contents
 :imagesdir: images
-:chapter-label: Layanan
+:chapter-label: 
 :figure-caption: Gambar 
 :icons: font
 :sectnums:
@@ -21,4 +20,4 @@ Use this if you create a full cover in one page
 ////
 //:title-logo-image: images/logo-zimera.png
 
-include::{includedir}/001-sismiop.adoc[]
+include::{includedir}/001-portal-pajak.adoc[]

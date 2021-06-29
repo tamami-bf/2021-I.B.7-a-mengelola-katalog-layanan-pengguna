@@ -30,22 +30,65 @@ Layanan ini tersedia selama 24 jam setiap hari dan 7 hari dalam seminggu
 
 === Referensi ke _template_ SLA (_Service Level Agreement_)
 
-berisi tautan ke _template_ SLA
+Referensi _Service Level Agreement_ (SLA) untuk layanan ini merujuk ke dokumen https://github.com/tamami-bf/2021-sla-portal-pajak/blob/master/build/sla-layanan-ti.pdf
 
 === _Notional Charging_
 
-berisi komponen biaya tetap dan komponen biaya variabel
+Komponen biaya tetap untuk layanan pengguna ini menginduk pada biaya operasional yang digunakan Badan Pendapatan Daerah Kabupaten Brebes untuk layanan internet dan listrik.
+
+Sedangkan biaya variabel bergantung kebutuhan _server_ adalah peningkatan dari sisi memori.
 
 === Proses Untuk Permintaan Layanan Teknologi Informasi
 
+Proses permintaan layanan teknologi informasi untuk portal pajak ini dilakukan dengan menghubungi Bagian Teknologi Informasi di Badan Pendapatan Daerah Kabupaten Brebes melalui beberapa kanal yang disediakan.
+
 === Dampak operasional apabila terjadi gangguan
+
+Dampak operasional bila terjadi gangguan pada portal ini mengakibatkan beberapa pihak tidak dapat menggunakan layanan ini diantaranya :
+
+. Informasi realisasi di tahun berjalan tidak dapat diakses.
+. Pegawai di Desa/Kelurahan tidak dapat melihat data piutang di tahun berjalan
+. Pegawai di Desa/Kelurahan tidak dapat melakukan pembentukan kode bayar untuk pembayaran massal PBB-P2
+. Bendahara Penerimaan tidak dapat melakukan pemeriksaan data terhadap kode bayar pajak daerah
 
 === Daftar Layanan Pendukung Layanan Utama 
 
-berisi layanan pendukung yang harus tersedia agar layanan utama dapat berjalan
+Layanan pendukung yang harus tersedia agar layanan ini dapat berjalan adalah seperti berikut :
+
+. Layanan `envoy-proxy-pendapatan_user-service_1` yang menyediakan konfigurasi pengguna aplikasi layanan portal pajak daerah
+. Layanan `envoy-proxy-pendapatan_oauth-pendapatan_1` yang menyediakan halaman otentikasi
+. Layanan `envoy-proxy-pendapatan_simda-service_1` yang menyediakan data dari basis data simda pendapatan
+. Layanan `envoy-proxy-pendapatan_billing-simda_1` yang menyediakan data dari basis data _payment online system_ untuk pembayaran pajak yang berasal dari simda pendapatan
+. Layanan `envoy-proxy-pendapatan_sismiop-service_1` yang menyediakan data dari basis data SISMIOP
+. Layanan `envoy-proxy-pendapatan_bphtb-bpn-service_1` yang menyediakan data dari basis data e-BPHTB
 
 === Versi dan tanggal revisi 
 
-berisi penjelasan versi perubahan layanan teknologi informasi beserta tanggal perubahannya
+[cols="2,3", width="75%"]
+|===
+| Versi | Tanggal
+
+| 1.0 | 29 Juni 2021
+|===
+
+<<<
 
 === Lembar Persetujuan
+
+[cols="2,1,8", width="100%", frame=none, grid=none]
+|===
+| Nama Kegiatan | : | I.B.7 - Mengelola Katalog Layanan Pengguna
+| Judul | : | Katalog Layanan Pengguna - Portal Pajak Daerah
+|===
+
+[cols="5,5", width="100%", frame=none, grid=none]
+|===
+^| Disetujui oleh : ^| Disusun Oleh
+^| Sekretaris ^| Selesai tanggal 29 Juni 2021
+^| Pada tanggal 29 Juni 2021 | 
+| |
+| |
+| |
+^| ^| Priyanto Tamami, S.Kom
+^| ^| 19840409 201001 1 025
+|===
